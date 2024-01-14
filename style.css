@@ -43,6 +43,7 @@ b {
     color: hsl(0, 0%, 50%);
     margin-bottom: 2vw;
     font-size: 16px;
+    line-height: 25px;
 }
 
 .first-img {
