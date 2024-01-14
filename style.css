@@ -1,0 +1,88 @@
+
+@font-face {
+    font-family: Figtree
+    src :local("assets/fonts/Figtree-Italic-VariableFont_wght.ttf")
+}
+
+* {
+    margin: 0px ;
+}
+
+body{
+    font-family: Figtree
+    Font size: 16px;
+}
+.back_ground {
+    background-color :hsl(47, 88%, 63%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.wight_card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.3vw;
+    border-radius: 2vw;
+    border-color: hsl(0, 0%, 7%);
+    border-width: .007vw;
+    border-style: solid;
+
+}
+
+.greg-hooper {
+    display: flex;
+    align-items:center;
+}
+b {
+    margin-left:1vw;
+}
+
+.gray-text {
+    color: hsl(0, 0%, 50%);
+    margin-bottom: 2vw;
+    font-size: 16px;
+}
+
+.first-img {
+    border-radius: 1vw;
+    margin-bottom: .75vw;
+}
+
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: .3vw .75vw;
+    border-radius:.5vw;
+    font-family: Figtree;
+    margin-bottom: .75vw;
+    font-size:16px ;
+}
+
+.big-font {
+    font-family: Figtree ;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+
+.big-font:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+    caret-color: black;
+    font-family: Figtree
+}
+p,b {
+    font-family: Figtree ;
+    margin-bottom: .5vw;
+    font-size: 14px;
+}
+
+.second-img {
+    width: 4vw;
+    height: 4vw;
+}
+
+b {
+    font-size: 12px;
+}
